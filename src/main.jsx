@@ -1,10 +1,27 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import ReactDOM from 'react-dom';
+import './style.css';
+import WebContent from './App.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+ReactDOM.render(<WebContent />, document.getElementById('root'));
+
+const toggle = document.querySelector('.hover-show');
+
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active');
+});
+
+let Icons = document.querySelectorAll('.navigation .icon');
+
+Icons.forEach((icon) => {
+  icon.addEventListener('click', () => {
+    changeactive();
+
+    icon.classList.add('active-nav');
+  });
+});
+
+function changeactive() {
+  Icons.forEach((icon) => {
+    icon.classList.remove('active-nav');
+  });
+}

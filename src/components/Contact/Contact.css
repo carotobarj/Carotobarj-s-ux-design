@@ -1,0 +1,356 @@
+.contact-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 50vh;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.contact-container h1 {
+  margin: 0 auto;
+  font-size: 38px;
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.contact-container .contact-links {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contact-container .contact {
+  position: inherit;
+  height: 280px;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.076);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-container .contact:hover {
+  background-color: rgba(255, 255, 255, 0.096);
+  transform: scale(1.1);
+}
+
+.contact-container .contact .icon {
+  position: relative;
+  font-size: 80px;
+}
+
+.contact-container .contact h2 {
+  position: relative;
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Poppins;
+  color: var(--color-pri);
+}
+
+.contact-container .contact h2 span {
+  font-size: 13px;
+  font-weight: 100;
+  margin-top: 3px;
+  color: rgb(202, 202, 202);
+  font-family: Poppins;
+}
+
+@media (max-width: 820px) {
+  .contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 80vh;
+    margin-top: 100px;
+    padding: 10px;
+  }
+
+  .contact-container h1 {
+    margin: 0 auto;
+    font-size: 38px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .contact-container .contact-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contact-container .contact {
+    position: inherit;
+    height: 233px;
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.076);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    backdrop-filter: blur(20px);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  .contact-container .contact .icon {
+    position: relative;
+    font-size: 80px;
+  }
+
+  .contact-container .contact h2 {
+    position: relative;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: Poppins;
+    text-align: center;
+    color: var(--color-pri);
+  }
+
+  .contact-container .contact h2 span {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 3px;
+    font-family: Poppins;
+    color: rgb(202, 202, 202);
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 80vh;
+    margin-top: 100px;
+    padding: 50px;
+  }
+
+  .contact-container h1 {
+    margin: 0 auto;
+    font-size: 38px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .contact-container .contact-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contact-container .contact {
+    position: inherit;
+    height: 232px;
+    width: 74%;
+    background-color: rgba(0, 0, 0, 0.076);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    backdrop-filter: blur(20px);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  .contact-container .contact .icon {
+    position: relative;
+    font-size: 80px;
+  }
+
+  .contact-container .contact h2 {
+    position: relative;
+    margin-top: 15px;
+    font-size: 21px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: Poppins;
+    text-align: center;
+    color: var(--color-pri);
+  }
+
+  .contact-container .contact h2 span {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 3px;
+    font-family: Poppins;
+    color: rgb(202, 202, 202);
+  }
+}
+
+@media (max-width: 420px) {
+  .contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 80vh;
+    margin-top: 70px;
+    padding: 30px;
+  }
+
+  .contact-container h1 {
+    margin: 0 auto;
+    font-size: 38px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .contact-container .contact-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contact-container .contact {
+    position: inherit;
+    height: 232px;
+    width: 74%;
+    background-color: rgba(0, 0, 0, 0.076);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    backdrop-filter: blur(20px);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  .contact-container .contact .icon {
+    position: relative;
+    font-size: 80px;
+  }
+
+  .contact-container .contact h2 {
+    position: relative;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: Poppins;
+    text-align: center;
+    color: var(--color-pri);
+  }
+
+  .contact-container .contact h2 span {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 3px;
+    font-family: Poppins;
+    color: rgb(202, 202, 202);
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 80vh;
+    margin-top: 100px;
+    padding: 15px;
+  }
+
+  .contact-container h1 {
+    margin: 0 auto;
+    font-size: 38px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .contact-container .contact-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-container .contact {
+    position: inherit;
+    height: 180px;
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.035);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    backdrop-filter: blur(20px);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  .contact-container .contact .icon {
+    position: relative;
+    font-size: 80px;
+  }
+
+  .contact-container .contact h2 {
+    position: relative;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: Poppins;
+    text-align: center;
+    color: var(--color-pri);
+  
+  }
+
+  .contact-container .contact h2 span {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 3px;
+    font-family: Poppins;
+    color: rgb(202, 202, 202);
+  }
+}

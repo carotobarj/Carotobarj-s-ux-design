@@ -1,0 +1,116 @@
+.navigation {
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  top: 0;
+  padding: 25px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 10px;
+  z-index: 99999;
+}
+
+.logo{
+  position: absolute;
+  left: 1rem;
+  width: 100px;
+  height: 100px;
+  justify-content:left;
+  top: 0.25rem;
+}
+
+.navigation a {
+  position: relative;
+  border-radius: 30%;
+}
+
+.icon {
+  font-size: 60px;
+  border-radius: 30%;
+  padding: 10px;
+  fill: rgb(220, 225, 249);
+}
+
+.navigation .icon.active-nav {
+  fill: rgb(88, 117, 248);
+  border: 2px solid rgb(88, 117, 248);
+}
+
+.navigation .icon:hover {
+  fill: rgba(146, 146, 146, 0.672);
+  border: 2px solid rgba(116, 117, 120, 0.681);
+}
+
+.navigation .icon.active-nav:hover {
+  fill: rgb(88, 117, 248);
+  border: 2px solid rgb(88, 117, 248);
+}
+
+/* @media (max-width: 820px) {
+  .navigation {
+    position: fixed;
+    z-index: 1000;
+    backdrop-filter: blur(30px);
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    opacity: 0;
+    top: 88%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    border-radius: 100px;
+  }
+
+  .navigation a {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+  }
+
+  .icon {
+    font-size: 70px;
+    border-radius: 50%;
+    padding: 10px;
+   
+    fill: rgb(209, 217, 252);
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    position: fixed;
+    z-index: 1000;
+    backdrop-filter: blur(30px);
+    transform: translateX(-50%) translateY(100px);
+    opacity: 0;
+    top: 88%;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  
+    
+  }
+
+  .navigation a {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+  }
+
+  .icon {
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    fill: rgb(238, 240, 248);
+  }
+} */
