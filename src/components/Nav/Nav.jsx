@@ -6,12 +6,12 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import { GiSkills } from "react-icons/gi";
 import { MdOutlineWeb } from "react-icons/md";
 import { GrCertificate } from "react-icons/gr";
-import logo from "../../assets/images/2.png"
+import logo from "../../assets/images/logo2.png";
 
 function Navbar() {
   return (
     <div className="navigation">
-      <img className="logo" src={logo} alt="" />
+      <img className="logo" src={logo} alt="" width="100px" height="100px"/>
       <label className="theme-switch">
   <input type="checkbox" className="theme-switch__checkbox"/>
   <div className="theme-switch__container">

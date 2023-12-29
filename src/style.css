@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  /* color: rgb(2, 2, 2); */
   font-weight: bolder;
   z-index: 1;  
 }
@@ -48,9 +47,9 @@ html {
   align-items: center;
 } 
 
-#switch-modo-oscuro{
+#theme-switch{
   position: fixed;
- bottom: 30rem;
+ bottom: 1rem;
  right: 1.5rem;
 }
 
